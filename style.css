@@ -1,0 +1,117 @@
+/* General Reset */
+body, h1, p, form, input, button, div, img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Logo Styling */
+.logo {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Form Styling */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #0056b3;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: red;
+  font-size: 12px;
+  display: none;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Thermometer Styling */
+#thermometerOutput {
+  margin-top: 20px;
+}
+
+.thermometer {
+  position: relative;
+  width: 60px;
+  height: 200px;
+  border: 2px solid #0056b3;
+  border-radius: 30px;
+  background-color: #e9ecef;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.thermometer .fill {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #0056b3;
+  transition: height 0.5s ease;
+}
+
+#outputText {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight
